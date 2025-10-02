@@ -41,9 +41,6 @@ class Library{
 }
 public class S_61_online_library {
     public static void main(String[] args) {
-    // You have to implement a Library using Java class Library
-    //methods : AddBooks,IssueBooks,ReturnBook,ShowAvailableBooks
-    //properties ;array to store Available Books,array to store issue Books
     Library CentralLibrary=new Library();
     CentralLibrary.addBook("The lost Child");
     CentralLibrary.issuedBooks("The lost Child");
@@ -53,3 +50,4 @@ public class S_61_online_library {
     System.out.println(CentralLibrary.no_of_books);
     }
 }
+
