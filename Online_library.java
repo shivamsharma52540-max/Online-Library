@@ -39,7 +39,7 @@ class Library{
         System.out.println(book+ "  has been issued!");
     }*/
 }
-public class S_61_online_library {
+public class online_Library {
     public static void main(String[] args) {
     Library CentralLibrary=new Library();
     CentralLibrary.addBook("The lost Child");
@@ -50,4 +50,5 @@ public class S_61_online_library {
     System.out.println(CentralLibrary.no_of_books);
     }
 }
+
 
